@@ -5,6 +5,8 @@ List references from your local [Zotero](https://www.zotero.org/) library and ad
 This does **not** provide autompletion in the document itself, as this is handled by https://github.com/jmbuhr/cmp-pandoc-references
 for entries already in `references.bib`. The intended workflow separates already used references from new ones imported from Zotero
 via this new plugin.
+Open the pdf files attached to the zotero entry with <kbd><C-o></kbd> in
+insert mode or <kbd><o></kbd> in normal mode.
 
 ## Requirements
 
@@ -32,6 +34,8 @@ Add to your telescope config, e.g. in lazy.nvim
       -- to configure manually:
       -- config = function
       --   require'zotero'.setup{ <your options> }
+	   -- Define your default pdf_opener:
+	   -- pdf_opener = "zathura"
       -- end,
     },
   },
