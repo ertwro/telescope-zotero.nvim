@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.5.2](https://github.com/jmbuhr/telescope-zotero.nvim/compare/v1.5.1...v1.5.2) (2025-02-27)
+
+
+### Bug Fixes
+
+* use jobstart to open pdf via [#21](https://github.com/jmbuhr/telescope-zotero.nvim/issues/21) from adam-coates/fix/pdfopener ([69a66fe](https://github.com/jmbuhr/telescope-zotero.nvim/commit/69a66fef08ee30a566903af66f2316bf2e3d32d4))
+
+## [1.5.1](https://github.com/jmbuhr/telescope-zotero.nvim/compare/v1.5.0...v1.5.1) (2025-02-07)
+
+
+### Bug Fixes
+
+* open pdfs in zotero storage via [#19](https://github.com/jmbuhr/telescope-zotero.nvim/issues/19) by [@adam-coates](https://github.com/adam-coates) ([0eaff32](https://github.com/jmbuhr/telescope-zotero.nvim/commit/0eaff324a79764da94d8037f57c958d8230192c5))
+
+## [1.5.0](https://github.com/jmbuhr/telescope-zotero.nvim/compare/v1.4.0...v1.5.0) (2024-08-25)
+
+
+### Features
+
+* added biblatex support via [#15](https://github.com/jmbuhr/telescope-zotero.nvim/issues/15) from Chiarandini/main ([901d79b](https://github.com/jmbuhr/telescope-zotero.nvim/commit/901d79bec0ee7d28be783f57066e7fecb31ccdda))
+
+## [1.4.0](https://github.com/jmbuhr/telescope-zotero.nvim/compare/v1.3.1...v1.4.0) (2024-08-05)
+
+
+### Features
+
+* open pdf directly from telescope list ([be1cc20](https://github.com/jmbuhr/telescope-zotero.nvim/commit/be1cc200031d376c8ca76af8ddd44974ed029e24))
+
 ## [1.3.1](https://github.com/jmbuhr/telescope-zotero.nvim/compare/v1.3.0...v1.3.1) (2024-04-23)
 
 
